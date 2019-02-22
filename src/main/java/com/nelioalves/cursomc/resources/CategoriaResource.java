@@ -19,8 +19,6 @@ public class CategoriaResource {
 		Categoria cat1 = new Categoria(1, "Informática");
 		Categoria cat2 = new Categoria(2, "Escritório");
 		
-		List<Categoria> lista = Arrays.asList(cat1, cat2);
-		
-		return lista;
+		return Arrays.asList(cat1, cat2);
 	}
 }
